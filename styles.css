@@ -1,9 +1,9 @@
 :root {
-    --main-tabcontent-color : FFFFFF;
+    --main-tabcontent-color : #FFFFFF;
     --main-tabcontent-text-shadow : 2px 2px #640074;
 }
 
-.tabcontent { 
+.hometabcontent { 
     display: inline-block;
     position:relative;
     left : 70%;
@@ -11,3 +11,26 @@
     color: var(--main-tabcontent-color);
     text-shadow: var(--main-tabcontent-text-shadow);
  } 
+
+ .homename {
+    color: var(--main-tabcontent-color);
+    text-shadow: var(--main-tabcontent-text-shadow);
+    font-size: 35px;
+    position:absolute;
+    left : 60%;
+    bottom: 40%;
+
+ }
+
+ body{
+    background-image: url(MOSHED-2023-9-14-11-32-20.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+
+ }
+
+ html {
+    height: 100%
+ }
+
+
