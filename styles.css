@@ -41,28 +41,34 @@ body{
 
 
 .footer {
-   position:absolute;
+   position:fixed;
    color : var(--main-text-color);
-   width:100%;
-   bottom:0px;
+   bottom:0;
    background-color:black;
-   font-size:30px;
-   font-weight:bold;
    padding: 35px;
+   font-size:20px;
+   width:100%;
 }
 
-
-.leftfooter {
-   display:inline-flex;
-   width:50%;
-   float:left;
+img {
+   width:2%;
+   height:3%;
 }
 
+.callfooter {
+   display: inline-block;
+   position:relative;
+   left : 5%;
+}
 
-.rightfooter {
-  display:inline-flex;
-   width:50%;
-   float:right;
-   position:inline-block;
+.githubfooter {
+   display: inline-block;
+   position:relative;
+   left : 10%;
+}
 
+.linkedinfooter {
+   display: inline-block;
+   position:relative;
+   left : 15%;
 }
