@@ -1,0 +1,13 @@
+:root {
+    --main-tabcontent-color : FFFFFF;
+    --main-tabcontent-text-shadow : 2px 2px #640074;
+}
+
+.tabcontent { 
+    display: inline-block;
+    position:relative;
+    left : 70%;
+    padding: 25px;
+    color: var(--main-tabcontent-color);
+    text-shadow: var(--main-tabcontent-text-shadow);
+ } 
