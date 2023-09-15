@@ -1,35 +1,104 @@
+* {
+   margin: 0;
+ }
+
+ :root {
+   --main-tabcontent-text-shadow : 2px 2px #640074;
+   --main-text-color : #FFFFFF;
+}
+.wrapper {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+ }
+ .wrapper > * {
+   padding: 20px;
+ }
+ .mainpage {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: end;
+   flex-grow: 1;
+   text-shadow: var(--main-tabcontent-text-shadow);
+   color : var(--main-text-color);
+   font-size:5vw;
+   
+ }
+
+ .mainpage p {
+   display: flex;
+   background:yellow;
+   margin-inline-end: 8%;
+ }
+       
+
+
+.footer {
+   background:black;
+   color : var(--main-text-color);
+}
+
+.header {
+   background:blue;
+}
+
+img {
+   width:1%;
+   height:1%;
+}
+
+
+body{
+   background-image: url(MOSHED-2023-9-14-11-32-20.gif);
+   background-repeat: no-repeat;
+   background-size: 100% 100%
+
+}
+
+/* 
+
 :root {
    --main-tabcontent-text-shadow : 2px 2px #640074;
    --main-text-color : #FFFFFF;
 }
-
-html {
-   height: 100%;
-   
-}
-
 html, body {
    margin: 0%;
    padding: 0%;
 } 
 
-.hometabcontent { 
+nav { 
    position:fixed;
-   left : 70%;
    padding: 1%;
    color: var(--main-text-color);
    text-shadow: var(--main-tabcontent-text-shadow);
 } 
 
-.homename {
-   color: var(--main-text-color);
-   text-shadow: var(--main-tabcontent-text-shadow);
-   font-size: 230%;
-   position:absolute;
+.home {
+   display: inline-block;
+   position:fixed;
    left : 60%;
-   bottom: 40%;
-
 }
+
+.about {
+   display: inline-block;
+   position:fixed;
+   left :70%;
+}
+
+.blog {
+   display: inline-block;
+   position:fixed;
+   left : 80%;
+}
+
+.project {
+   display: inline-block;
+   position:fixed;
+   left : 90%;
+}
+
+
 
 body{
    background-image: url(MOSHED-2023-9-14-11-32-20.gif);
@@ -70,4 +139,4 @@ img {
    display: inline-block;
    position:relative;
    left : 15%;
-}
+} */
