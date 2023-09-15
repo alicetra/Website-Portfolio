@@ -50,113 +50,55 @@
  }
 
  .mainpage p {
-   display: flex;
    margin-inline-end: 8%;
-   
  }
        
 
 
 .footer {
+   display:flex;
    background:black;
    color : var(--main-text-color);
-   font-size:1.5vw;
+   font-size:1vw;
 }
+
 
 img {
-   width:1%;
-   height:1%;
+   width:1.5vw;
+   height:1.5vw;
+   
 }
 
-
-body{
-   background-image: url(MOSHED-2023-9-14-11-32-20.gif);
-   background-repeat: no-repeat;
-   background-size: 100% 100%
-
-}
-
-/* 
-
-:root {
-   --main-tabcontent-text-shadow : 2px 2px #640074;
-   --main-text-color : #FFFFFF;
-}
-html, body {
-   margin: 0%;
-   padding: 0%;
-} 
-
-nav { 
-   position:fixed;
-   padding: 1%;
-   color: var(--main-text-color);
-   text-shadow: var(--main-tabcontent-text-shadow);
-} 
-
-.home {
+.emailfooter {
    display: inline-block;
-   position:fixed;
-   left : 60%;
-}
-
-.about {
-   display: inline-block;
-   position:fixed;
-   left :70%;
-}
-
-.blog {
-   display: inline-block;
-   position:fixed;
-   left : 80%;
-}
-
-.project {
-   display: inline-block;
-   position:fixed;
-   left : 90%;
-}
-
-
-
-body{
-   background-image: url(MOSHED-2023-9-14-11-32-20.gif);
-   background-repeat: no-repeat;
-   background-size: 100% 100%
-
-}
-
-
-.footer {
-   position:fixed;
-   color : var(--main-text-color);
-   bottom:0;
-   background-color:black;
-   padding: 2%;
-   font-size:100%;
-   width:100%;
-}
-
-img {
-   width:2%;
-   height:3%;
+   position:relative;
+   left : 0%;
+   margin:.2vw
 }
 
 .callfooter {
    display: inline-block;
    position:relative;
-   left : 5%;
-}
-
-.githubfooter {
-   display: inline-block;
-   position:relative;
-   left : 10%;
+   left :5%;
+   margin:.2vw
 }
 
 .linkedinfooter {
    display: inline-block;
    position:relative;
+   left : 10%;
+}
+
+.githubfooter {
+   display: inline-block;
+   position:relative;
    left : 15%;
-} */
+}
+
+
+body{
+   background-image: url(MOSHED-2023-9-14-11-32-20.gif);
+   background-repeat: no-repeat;
+   background-size: 100% 100%
+
+}
