@@ -14,6 +14,28 @@
  .wrapper > * {
    padding: 20px;
  }
+
+
+
+.header nav {
+   display: flex;
+   justify-content:end;
+   
+
+}
+
+.header a {
+   margin: 0 4vw;
+   font-size:2vw;
+   text-decoration:none;
+   text-shadow: var(--main-tabcontent-text-shadow);
+   color : var(--main-text-color);
+   font-weight: bold;
+
+}
+
+
+
  .mainpage {
    display: flex;
    flex-direction: column;
@@ -23,13 +45,14 @@
    text-shadow: var(--main-tabcontent-text-shadow);
    color : var(--main-text-color);
    font-size:5vw;
+  
    
  }
 
  .mainpage p {
    display: flex;
-   background:yellow;
    margin-inline-end: 8%;
+   
  }
        
 
@@ -37,10 +60,7 @@
 .footer {
    background:black;
    color : var(--main-text-color);
-}
-
-.header {
-   background:blue;
+   font-size:1.5vw;
 }
 
 img {
