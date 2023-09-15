@@ -118,22 +118,29 @@ img {
 
 .aboutmain {
    background:yellow;
+   flex-grow: 1;
    display: flex;
-   flex: 1;
+   flex-wrap: wrap;
+   flex-direction: row-reverse;
+   overflow-y: auto;
 }
 
 .aboutmain>picture {
-   flex: 1;
+   height: 40vw;
+   width: 50%;
    background:green;
 }
 
 .aboutmain>article {
-   flex: 1;
+   height: 40vw;
+   width: 50%;
    background:purple;
+
 }
 
 .aboutmain>work {
-   flex: 1;
+   height: 15vw;
+   width: 100%;
    background:pink;
 }
 
