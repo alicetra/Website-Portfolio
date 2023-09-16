@@ -117,30 +117,29 @@ img {
 }
 
 .aboutmain {
-   background:yellow;
-   flex-grow: 1;
    display: flex;
-   flex-wrap: wrap;
-   flex-direction: row-reverse;
-   overflow-y: auto;
-}
-
-.aboutmain>picture {
-   height: 40vw;
-   width: 50%;
-   background:green;
-}
-
-.aboutmain>article {
-   height: 40vw;
-   width: 50%;
-   background:purple;
-
-}
-
-.aboutmain>work {
-   height: 15vw;
+   flex-direction: column;
+   justify-content: center;
+   overflow-y: scroll;
+   background: #D9D9D9;
+ }
+ 
+ .aboutmain > article {
+   min-height: 85vh;
+ }
+ 
+ .aboutmain > work {
    width: 100%;
-   background:pink;
-}
-
+   background: pink;
+   min-height: 50vh;
+ }
+ 
+ .aboutmain h1 {
+   display:flex;
+   text-shadow: 2px 2px white;
+   color: #640074;
+   width:20vw;
+   font-weight: bold;
+   font-size:2vw;
+   justify-content: center;
+ }
