@@ -187,7 +187,7 @@ img {
    flex:1;
 }
 
-.workexperience p {
+.aboutprofessional p {
    margin-top: 1vw;
    margin-left: 15vw;
    display:flex;
@@ -196,13 +196,5 @@ img {
    font-size:1vw;
 }
 
-.education p {
-   margin-top: 1vw;
-   margin-left: 15vw;
-   display:flex;
-   width:20vw;
-   height:3vw;
-   font-size:1vw;
-}
 
 
