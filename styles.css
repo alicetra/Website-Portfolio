@@ -161,25 +161,48 @@ img {
    font-size:1vw;
  }
 
- .aboutprofessional h1 {
-   float: left;
- }
- .aboutprofessional h2 {
-   float: right;
- }
-
- .professionalheading { 
+ .aboutprofessional {
    display: flex;
+}
+
+.professionalarticleheading { 
+   display:flex;
    text-shadow: 2px 2px white;
    color: #640074;
    font-weight:bold;
    font-size:2vw;
-   margin-top: 1vw;
-   margin-inline-start: 2vw;
-   margin-inline-end:2vw;
    border: .1vw solid #640074;
    width:20vw;
    height:3vw;
    justify-content: center;
+   margin-top: 1vw;
+   margin-left: 15vw;
+ }
 
- 
+ .workexperience {
+   flex:1;
+}
+
+.education {
+   flex:1;
+}
+
+.workexperience p {
+   margin-top: 1vw;
+   margin-left: 15vw;
+   display:flex;
+   width:20vw;
+   height:3vw;
+   font-size:1vw;
+}
+
+.education p {
+   margin-top: 1vw;
+   margin-left: 15vw;
+   display:flex;
+   width:20vw;
+   height:3vw;
+   font-size:1vw;
+}
+
+
