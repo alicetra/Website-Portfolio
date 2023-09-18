@@ -217,5 +217,10 @@ img {
    
 }
 
-
+.mainpageproject {
+   display: flex;
+   flex-grow: 1;
+   font-size:5vw;
+   background:yellow;
+ }
 
