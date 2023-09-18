@@ -15,15 +15,19 @@
    padding: 20px;
  }
 
+ body {
+   background:#D9D9D9;
+
+ }
 
 .mainpageheader nav {
    display: flex;
-   justify-content:end;
+   justify-content: end;
 }
 
 .mainpageheader a {
    margin: 0 4vw;
-   font-size:2vw;
+   font-size: 2vw;
    text-decoration:none;
    text-shadow: var(--main-tabcontent-text-shadow);
    color : var(--main-text-color);
@@ -39,39 +43,39 @@
    flex-grow: 1;
    text-shadow: var(--main-tabcontent-text-shadow);
    color : var(--main-text-color);
-   font-size:5vw;
+   font-size: 5vw;
  }
 
  .mainpage p {
    margin-inline-end: 8%;
  }
-       
+
+ 
+
+ .footer img {
+   width: 1.5vw;
+   height: 1.5vw;
+ }
 
 .footer {
-   display:flex;
+   display: flex;
    background:black;
    color : var(--main-text-color);
-   font-size:1vw;
+   font-size: 1vw;
 }
 
-
-img {
-   width:1.5vw;
-   height:1.5vw;
-   
-}
 
 .emailfooter {
    display: inline-block;
-   position:relative;
+   position: relative;
    left : 0%;
    margin:.2vw
 }
 
 .callfooter {
    display: inline-block;
-   position:relative;
-   left :5%;
+   position: relative;
+   left : 5%;
    margin:.2vw
 }
 
@@ -108,7 +112,7 @@ img {
 
 .pageheader a {
    margin: 0 4vw;
-   font-size:2vw;
+   font-size: 2vw;
    text-decoration:none;
    text-shadow: var(--main-tabcontent-text-shadow);
    color : var(--main-text-color);
@@ -120,7 +124,7 @@ img {
    display: flex;
    flex-direction: column;
    justify-content: center;
-   background: #D9D9D9;
+
  }
  
  .aboutpersonal {
@@ -136,15 +140,15 @@ img {
  .heading  {
    text-shadow: 2px 2px white;
    color: #640074;
-   width:20vw;
+   width: 20vw;
    font-weight: bold;
-   font-size:2vw;
+   font-size: 2vw;
    margin-left: 2vw;;
  }
 
  .aboutpersonal img {
    width: 25vw;
-   height:30vw;
+   height: 30vw;
    margin-inline-start: 2vw;
    margin-top: 1vw;
  }
@@ -153,18 +157,18 @@ img {
    float: right;
    background: #7245AC;
    width: 50vw;
-   height:fit-content;
+   height: fit-content;
    margin-right: 5vw;
    margin-top: 1vw;
    text-shadow: var(--main-tabcontent-text-shadow);
    color : var(--main-text-color);
-   font-size:1vw;
+   font-size: 1vw;
  }
 
  .resumelink {
    display: flex;
    align-items: center;
-   font-size:1vw;
+   font-size: 1vw;
    text-shadow: 2px 2px white;
    color: #640074;
    font-weight: bold;
@@ -184,14 +188,14 @@ img {
 }
 
 .professionalarticleheading { 
-   display:flex;
+   display: flex;
    text-shadow: 2px 2px white;
    color: #640074;
-   font-weight:bold;
-   font-size:2vw;
+   font-weight: bold;
+   font-size: 2vw;
    border: .1vw solid #640074;
-   width:20vw;
-   height:3vw;
+   width: 20vw;
+   height: 3vw;
    justify-content: center;
    margin-top: 1vw;
    margin-left: 15vw;
@@ -208,12 +212,12 @@ img {
 .aboutprofessional p {
    margin-top: 1vw;
    margin-left: 15vw;
-   display:flex;
-   width:20vw;
-   height:3vw;
-   font-size:1vw;
+   display: flex;
+   width: 20vw;
+   height: 3vw;
+   font-size: 1vw;
    color:#FFFFFF;
-   font-weight:bold;
+   font-weight: bold;
    
 }
 
@@ -229,11 +233,19 @@ img {
 
  .introtoprojects p {
    font-size: 1vw;
+   background: #CAA0FF;
+   margin-top: 1vw;
+   height: fit-content;
+   color : var(--main-text-color);
+   font-weight: bold;
+   width:15vw;
+   margin-left:2vw ;
+   text-align: center;
  }
 
  .introtoprojects img {
    margin-left: 2vw;
-   width:15vw;
-   height:15vw;
+   width: 15vw;
+   height: 15vw;
    border-radius: 50%;
  }
