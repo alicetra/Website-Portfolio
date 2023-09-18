@@ -20,6 +20,26 @@
 
  }
 
+ .mainpage {
+  display: flex;
+  flex-grow: 1;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body p {
+  width: 10vw;
+  text-align: center;
+  font-weight:bold;
+  background:#7245AC;
+  height:fit-content;
+  font-size: .8vw;
+  color:#FFFFFF
+  
+ }
+
 .mainpageheader nav {
    display: flex;
    justify-content: end;
@@ -35,19 +55,22 @@
 
 }
 
- .mainpage {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: end;
-   flex-grow: 1;
-   text-shadow: var(--main-tabcontent-text-shadow);
-   color : var(--main-text-color);
-   font-size: 5vw;
+ .mainpageindex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  flex-grow: 1;
  }
 
- .mainpage p {
-   margin-inline-end: 8%;
+ .mainpageindex p {
+  margin-inline-end: 8%;
+  font-size: 5.5vw;
+  width:fit-content;
+  text-shadow:var(--main-tabcontent-text-shadow);
+  color : var(--main-text-color);
+  background:transparent;
+  font-weight:bold;
  }
 
  
@@ -222,10 +245,21 @@
 }
 
 
- .mainpageproject {
-   display: flex;
-   flex-grow: 1;
- }
+.aboutprofessional p {
+  margin-top: 1vw;
+  margin-left: 15vw;
+  display: flex;
+  width: 20vw;
+  height: 3vw;
+  font-size: 1vw;
+  color:#FFFFFF;
+  background:#CAA0FF;
+  font-weight: bold;
+  
+}
+
+
+
  
  .introtoprojects {
    width: 30vw;
@@ -255,7 +289,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  text-decoration: none;
 }
 
 
@@ -266,30 +299,31 @@
   margin-top: .5vw;
 
 }
-.toptwoprojects {
+.projectsflexbox {
   display: flex;
   justify-content: space-around;
 }
 
-.bottomtwoprojects {
+.blogarticles {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: space-evenly;
+
 }
 
-.toptwoprojects p,
-.bottomtwoprojects p {
-  background:yellow;
-  width: 10vw;
-  text-align: center;
-  font-weight:bold;
-  background:#7245AC;
-  height:fit-content;
-  font-size: .8vw;
-  color:#FFFFFF
-  
+.articlesflexbox {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.toptwoprojects a,
-.bottomtwoprojects a {
-  text-decoration: none;
+
+.blogarticles img {
+  width: 15vw;
+   height: 15vw;
+}
+
+.blogarticles p {
+  width: 15vw;
 }
