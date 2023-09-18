@@ -237,15 +237,59 @@
    margin-top: 1vw;
    height: fit-content;
    color : var(--main-text-color);
-   font-weight: bold;
    width:15vw;
    margin-left:2vw ;
    text-align: center;
  }
 
  .introtoprojects img {
+   margin-top: 1vw;
    margin-left: 2vw;
    width: 15vw;
    height: 15vw;
    border-radius: 50%;
  }
+
+ .projectslinks {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+
+
+.projectslinks img {
+  background:pink;
+  height: 10vw;
+  width: 10vw;
+  margin-top: .5vw;
+
+}
+.toptwoprojects {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottomtwoprojects {
+  display: flex;
+  justify-content: space-around;
+}
+
+.toptwoprojects p,
+.bottomtwoprojects p {
+  background:yellow;
+  width: 10vw;
+  text-align: center;
+  font-weight:bold;
+  background:#7245AC;
+  height:fit-content;
+  font-size: .8vw;
+  color:#FFFFFF
+  
+}
+
+.toptwoprojects a,
+.bottomtwoprojects a {
+  text-decoration: none;
+}
