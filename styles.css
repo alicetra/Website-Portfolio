@@ -1,3 +1,5 @@
+/* global css*/
+
 * {
    margin: 0;
  }
@@ -25,6 +27,15 @@
   flex-grow: 1;
 }
 
+.heading  {
+  text-shadow: 2px 2px white;
+  color: #640074;
+  width: 20vw;
+  font-weight: bold;
+  font-size: 2vw;
+  margin-left: 2vw;;
+}
+
 body a {
   text-decoration: none;
 }
@@ -40,6 +51,48 @@ body p {
   
  }
 
+ .footer img {
+  width: 1.5vw;
+  height: 1.5vw;
+}
+
+.footer {
+  display: flex;
+  background:black;
+  color : var(--main-text-color);
+  font-size: 1vw;
+}
+
+
+.emailfooter {
+  display: inline-block;
+  position: relative;
+  left : 0%;
+  margin:.2vw
+}
+
+.callfooter {
+  display: inline-block;
+  position: relative;
+  left : 5%;
+  margin:.2vw
+}
+
+.linkedinfooter {
+  display: inline-block;
+  position:relative;
+  left : 6%;
+}
+
+.githubfooter {
+  display: inline-block;
+  position:relative;
+  left : 12%;
+}
+
+/* end of global css code  */
+
+/*  index page css */
 .mainpageheader nav {
    display: flex;
    justify-content: end;
@@ -73,47 +126,6 @@ body p {
   font-weight:bold;
  }
 
- 
-
- .footer img {
-   width: 1.5vw;
-   height: 1.5vw;
- }
-
-.footer {
-   display: flex;
-   background:black;
-   color : var(--main-text-color);
-   font-size: 1vw;
-}
-
-
-.emailfooter {
-   display: inline-block;
-   position: relative;
-   left : 0%;
-   margin:.2vw
-}
-
-.callfooter {
-   display: inline-block;
-   position: relative;
-   left : 5%;
-   margin:.2vw
-}
-
-.linkedinfooter {
-   display: inline-block;
-   position:relative;
-   left : 6%;
-}
-
-.githubfooter {
-   display: inline-block;
-   position:relative;
-   left : 12%;
-}
-
 
 #homepage{
    background-image: url(MOSHED-2023-9-14-11-32-20.gif);
@@ -122,6 +134,9 @@ body p {
 
 }
 
+/* end of index page code  */
+
+/* header code that runs across all pages of the website except the index page  */
 .pageheader {
    background-image: url(tumblr_o0qppfgN9i1txt22yo1_500.webp);
    background-size:cover;
@@ -143,112 +158,82 @@ body p {
 
 }
 
-.aboutmain {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
+/* end of header code that runs across all pages of the website except the index page  */
 
- }
- 
- .aboutpersonal {
-   min-height: 75vh;
- }
- 
- .aboutprofessional {
-   width: 100%;
-   background: #CAA0FF;
-   min-height: 40vh;
- }
- 
- .heading  {
-   text-shadow: 2px 2px white;
-   color: #640074;
-   width: 20vw;
-   font-weight: bold;
-   font-size: 2vw;
-   margin-left: 2vw;;
- }
-
- .aboutpersonal img {
-   width: 25vw;
-   height: 30vw;
-   margin-inline-start: 2vw;
-   margin-top: 1vw;
- }
-
- .aboutpersonal  p {
-   float: right;
-   background: #7245AC;
-   width: 50vw;
-   height: fit-content;
-   margin-right: 5vw;
-   margin-top: 1vw;
-   text-shadow: var(--main-tabcontent-text-shadow);
-   color : var(--main-text-color);
-   font-size: 1vw;
- }
-
- .resumelink {
-   display: flex;
-   align-items: center;
-   font-size: 1vw;
-   text-shadow: 2px 2px white;
-   color: #640074;
-   font-weight: bold;
- }
- 
- .resumelink img {
-   margin-top: 0vw;
-   height: 3vw;
-   width: 3vw;
-   margin-right: 1vw;
- }
+/* about page css  */
 
 
+  .aboutmain {
+  display: flex;
+  flex-direction: column;
+  flex:1;
+ }
 
- .aboutprofessional {
-   display: flex;
+.aboutpersonal img {
+  width: 20vw;
+  height: 20vw;
+  margin-inline-start: 2vw;
+  margin-top: 1vw;
+}
+
+.aboutpersonal {
+  display: flex;
+  flex-grow:1; 
+}
+
+.aboutpersonal  p {
+  background: #7245AC;
+  width: 60vw;
+  height: fit-content;
+  margin-top: 1vw;
+  margin-inline-start: 10vw;
+  text-shadow: var(--main-tabcontent-text-shadow);
+  color : var(--main-text-color);
+  font-size: 1vw;
+}
+
+.resumelink {
+  display: flex;
+  align-items: center;
+  font-size: .8vw;
+  text-shadow: 2px 2px white;
+  color: #640074;
+  font-weight: bold;
+  margin-inline-start: 1.5vw;
+}
+
+.resumelink img {
+  margin-top: 0vw;
+  height: 3vw;
+  width: 3vw;
+}
+
+.aboutprofessional {
+  display: flex;
+  flex:1;
+  width: 100%;
+  background: #CAA0FF;
+  min-height: fit-content;
 }
 
 .professionalarticleheading { 
-   display: flex;
-   text-shadow: 2px 2px white;
-   color: #640074;
-   font-weight: bold;
-   font-size: 2vw;
-   border: .1vw solid #640074;
-   width: 20vw;
-   height: 3vw;
-   justify-content: center;
-   margin-top: 1vw;
-   margin-left: 15vw;
- }
-
- .workexperience {
-   flex:1;
-}
-
-.education {
-   flex:1;
-}
-
-.aboutprofessional p {
-   margin-top: 1vw;
-   margin-left: 15vw;
-   display: flex;
-   width: 20vw;
-   height: 3vw;
-   font-size: 1vw;
-   color:#FFFFFF;
-   font-weight: bold;
-   
+  display: flex;
+  text-shadow: 2px 2px white;
+  color: #640074;
+  font-weight: bold;
+  font-size: 2vw;
+  border: .1vw solid #640074;
+  width: 20vw;
+  height: 3vw;
+  justify-content: center;
+  margin-top: 1vw;
+ /*  margin-inline-start: 14vw; */
 }
 
 
 .aboutprofessional p {
   margin-top: 1vw;
-  margin-left: 15vw;
-  display: flex;
+/*   margin-left: 15vw; */
   width: 20vw;
   height: 3vw;
   font-size: 1vw;
@@ -258,9 +243,79 @@ body p {
   
 }
 
+.workexperience,
+.education {
+  flex:1;
+}
 
 
- 
+@media only screen and (max-width: 768px) {
+
+  .pageheader a {
+    font-size:4vw;
+  }
+  .aboutpersonal {
+    flex-direction: column;
+  }
+
+  .aboutpersonal img {
+    width: 60vw;
+    height: 60vw;
+   /*  margin-inline-start: 15vw; */
+  }
+
+  .aboutpersonal p {
+    font-size:1.8vw;
+    height:fit-content;
+    width:fit-content;
+   /*  margin-bottom: 1vw; */
+    /* margin-inline-end: 10vw; */
+  }
+
+  .heading  {
+    width: fit-content;
+  /*   margin-left: 15vw;; */
+    font-size:4vw;
+  }
+
+  .resumelink {
+    font-size:3vw;
+    /* margin-inline-start: 15vw; */
+  }
+
+  .aboutprofessional {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .aboutprofessional h1 { 
+    height:fit-content;
+/*     width:30vw;
+    font-size:4vw;
+    margin-inline-start: 35vw; */
+  }
+
+  .education h2 {
+    height:fit-content;
+/*     width:30vw;
+    font-size:4vw;
+    margin-inline-start: 35vw; */
+
+  }
+
+  .aboutprofessional p {
+    height:fit-content;
+/*     width:15vw;
+    font-size:2vw;
+    margin-inline-start: 45vw; */
+  }
+  
+}
+
+/* end of about page*/
+
+/* project page css */
+
  .introtoprojects {
    width: 30vw;
  }
@@ -304,6 +359,9 @@ body p {
   justify-content: space-around;
 }
 
+/* end of project page */
+
+/* blog page css  */
 .blogarticles {
   display: flex;
   justify-content: center;
@@ -327,3 +385,5 @@ body p {
 .blogarticles p {
   width: 15vw;
 }
+
+/* end of blog page */
