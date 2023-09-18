@@ -129,7 +129,7 @@ img {
  
  .aboutprofessional {
    width: 100%;
-   background: pink;
+   background: #CAA0FF;
    min-height: 40vh;
  }
  
@@ -160,6 +160,24 @@ img {
    color : var(--main-text-color);
    font-size:1vw;
  }
+
+ .resumelink {
+   display: flex;
+   align-items: center;
+   font-size:1vw;
+   text-shadow: 2px 2px white;
+   color: #640074;
+   font-weight: bold;
+ }
+ 
+ .resumelink img {
+   margin-top: 0vw;
+   height: 3vw;
+   width: 3vw;
+   margin-right: 1vw;
+ }
+
+
 
  .aboutprofessional {
    display: flex;
@@ -194,6 +212,9 @@ img {
    width:20vw;
    height:3vw;
    font-size:1vw;
+   color:#FFFFFF;
+   font-weight:bold;
+   
 }
 
 
