@@ -234,21 +234,24 @@ body p {
 
 /* end of blog page */
 
+
+
 /* about page css  */
 .mainpage {
-
+  flex:1;
   display:flex;
   flex-direction:column;
 
 }
 
 #headingabout {
+  display:flex;
+  justify-content: center;
   background:pink;
   text-shadow: 2px 2px white;
   color: #640074;
   font-weight: bold;
-  font-size: 2vw;
-  margin-left: 2vw;
+  font-size: 3.5vw;
 }
 
 
@@ -261,16 +264,30 @@ body p {
 .personalleft {
   display:flex;
   flex-direction:column;
-  justify-content: center;
-  align-items: start;
   flex:1;
 
+}
+
+.personalright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex:2;
+  background:brown;
+}
+
+.personalright p {
+  font-size:1.5vw;
+  height:fit-content;
+  width:fit-content;
+  margin: 2vw;
 }
 
 .personalleft img {
   height:fit-content;
   width:fit-content;
-  margin-left: 2vw;
+  margin: 2vw;
+  margin-bottom: 0vw;
 }
 
 .personalleft a {
@@ -279,24 +296,23 @@ body p {
   color: #640074;
   font-weight: bold;
 }
+
 #resumelogo {
-  height:2vw;
-  width:2vw;
+  height:3vw;
+  width:3vw;
+  margin-top:0vw;
+  margin-inline-start: 1.3vw;
 }
 
-.personalright {
-  display: flex;
-  justify-content: center;
+.perfonsalleftresume {
+  margin: 1vw;
+  display:flex;
   align-items: center;
-  flex:1;
+  background:red;
+  margin-left:0;
+  margin-right: 0;
 }
 
-.personalright p {
-  font-size:2vw;
-  height:fit-content;
-  width:fit-content;
-  margin: 2vw;
-}
 
 .professionalbox {
   background:blue;
