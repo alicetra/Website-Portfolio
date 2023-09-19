@@ -162,31 +162,31 @@ body p {
 
 /* about page css  */
 
-
-  .aboutmain {
+.aboutmain {
   display: flex;
   flex-direction: column;
+  justify-content: stretch;
   flex:1;
- }
+}
+
+.aboutpersonal {
+  flex:1;
+}
 
 .aboutpersonal img {
-  width: 20vw;
-  height: 20vw;
+  width: 25vw;
+  height: 30vw;
   margin-inline-start: 2vw;
   margin-top: 1vw;
 }
 
-.aboutpersonal {
-  display: flex;
-  flex-grow:1; 
-}
-
 .aboutpersonal  p {
+  float: right;
   background: #7245AC;
-  width: 60vw;
+  width: 50vw;
   height: fit-content;
+  margin-right: 8vw;
   margin-top: 1vw;
-  margin-inline-start: 10vw;
   text-shadow: var(--main-tabcontent-text-shadow);
   color : var(--main-text-color);
   font-size: 1vw;
@@ -195,121 +195,125 @@ body p {
 .resumelink {
   display: flex;
   align-items: center;
-  font-size: .8vw;
+  font-size: 1vw;
   text-shadow: 2px 2px white;
   color: #640074;
   font-weight: bold;
-  margin-inline-start: 1.5vw;
+  margin-bottom: .5vw;
 }
 
 .resumelink img {
   margin-top: 0vw;
   height: 3vw;
   width: 3vw;
+  margin-right: 1vw;
 }
 
 .aboutprofessional {
   display: flex;
-  flex:1;
   width: 100%;
   background: #CAA0FF;
-  min-height: fit-content;
+  min-height: 40vh;
 }
 
-.professionalarticleheading { 
+#workexperience {
+  flex:1;
+  justify-items: center;
+}
+
+#education {
+  flex:1;
+}
+
+#workexperience H1 {
   display: flex;
+  justify-content: center;
+
+}
+
+#education h2 {
+  display: flex;
+  justify-content: center;
+}
+
+  .professionalarticleheading { 
   text-shadow: 2px 2px white;
   color: #640074;
   font-weight: bold;
   font-size: 2vw;
-  border: .1vw solid #640074;
-  width: 20vw;
-  height: 3vw;
-  justify-content: center;
-  margin-top: 1vw;
- /*  margin-inline-start: 14vw; */
-}
-
-
-.aboutprofessional p {
-  margin-top: 1vw;
-/*   margin-left: 15vw; */
-  width: 20vw;
-  height: 3vw;
-  font-size: 1vw;
-  color:#FFFFFF;
-  background:#CAA0FF;
-  font-weight: bold;
   
 }
 
-.workexperience,
+.workexperience {
+  flex:1;
+}
+
 .education {
   flex:1;
 }
 
+.aboutprofessional p {
+  margin-top: 1vw;
+  margin-left: 15vw;
+  display: flex;
+  width: 20vw;
+  height: 3vw;
+  font-size: 1vw;
+  color:#FFFFFF;
+  font-weight: bold;
+  background:transparent;
 
-@media only screen and (max-width: 768px) {
+}
 
-  .pageheader a {
-    font-size:4vw;
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+  
+  .heading  {
+    font-size: 5vw;
+    width:fit-content;
+    margin-inline-start: 35vw;
   }
-  .aboutpersonal {
-    flex-direction: column;
-  }
+
 
   .aboutpersonal img {
-    width: 60vw;
-    height: 60vw;
-   /*  margin-inline-start: 15vw; */
+    width: 25vw;
+    height: 30vw;
+    margin-inline-start: 35vw;
+    margin-top:5vw
+  }
+  
+  .resumelink img {
+    margin-top: 0vw;
+    height: 4vw;
+    width: 4vw;
+
   }
 
-  .aboutpersonal p {
-    font-size:1.8vw;
+  .aboutpersonal  p{
+    margin-top: 5vw;
+    margin-bottom: 1vw;
+    margin-inline-end: 20vw;
     height:fit-content;
-    width:fit-content;
-   /*  margin-bottom: 1vw; */
-    /* margin-inline-end: 10vw; */
+    font-size:1.5vw;
   }
 
-  .heading  {
-    width: fit-content;
-  /*   margin-left: 15vw;; */
-    font-size:4vw;
-  }
-
-  .resumelink {
-    font-size:3vw;
-    /* margin-inline-start: 15vw; */
-  }
 
   .aboutprofessional {
+    display:flex;
     flex-direction: column;
-    justify-content: center;
+    min-height: 30vh;
   }
-
-  .aboutprofessional h1 { 
-    height:fit-content;
-/*     width:30vw;
-    font-size:4vw;
-    margin-inline-start: 35vw; */
-  }
-
-  .education h2 {
-    height:fit-content;
-/*     width:30vw;
-    font-size:4vw;
-    margin-inline-start: 35vw; */
-
+  
+  .professionalarticleheading { 
+    font-size: 3vw;
+    
   }
 
   .aboutprofessional p {
+    font-size: 1.5vw;
     height:fit-content;
-/*     width:15vw;
-    font-size:2vw;
-    margin-inline-start: 45vw; */
+    width:fit-content;
+    margin-left:20vw;
   }
-  
 }
 
 /* end of about page*/
