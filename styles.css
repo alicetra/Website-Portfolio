@@ -160,52 +160,6 @@ body p {
 
 /* end of header code that runs across all pages of the website except the index page  */
 
-/* project page css */
-
-.introtoprojects {
-  width: 30vw;
-}
-
-.introtoprojects p {
-  font-size: 1vw;
-  background: #CAA0FF;
-  margin-top: 1vw;
-  height: fit-content;
-  color : var(--main-text-color);
-  width:15vw;
-  margin-left:2vw ;
-  text-align: center;
-}
-
-.introtoprojects img {
-  margin-top: 1vw;
-  margin-left: 2vw;
-  width: 15vw;
-  height: 15vw;
-  border-radius: 50%;
-}
-
-.projectslinks {
- width: 80vw;
- display: flex;
- flex-direction: column;
- justify-content: space-evenly;
-}
-
-
-.projectslinks img {
- background:pink;
- height: 10vw;
- width: 10vw;
- margin-top: .5vw;
-
-}
-.projectsflexbox {
- display: flex;
- justify-content: space-around;
-}
-
-/* end of project page */
 
 /* blog page css  */
 .blogarticles {
@@ -236,8 +190,87 @@ body p {
 
 
 
+/* project page css */
+
+.mainpageprojects {
+  flex: 1;
+  display: flex;
+}
+
+.box {
+  flex:1;
+  display:flex;
+  flex-direction:column;
+}
+
+.headingbox {
+  display:flex;
+  flex:1;
+  background:purple;
+  justify-content:center;
+  background:pink;
+  text-shadow: 2px 2px white;
+  color: #640074;
+  font-weight: bold;
+  font-size: 1.5vw;
+}
+
+.contentbox {
+  display:flex;
+  flex:7;
+  background:red;
+  flex-wrap:wrap;
+}
+
+.introbox {
+  display:flex;
+  align-items: center;
+  flex-direction:column;
+  flex:1;
+  background:blue;
+}
+
+.introbox img {
+  flex:2;
+  border-style: solid;
+  border-radius: 50%;
+  width:250px;
+  height:250px;
+}
+
+.introbox p {
+  flex:1;
+  border-style: solid;
+  width:50%;
+  height:fit-content;
+}
+
+.projectsbox {
+  display:flex;
+  flex-direction:column;
+  flex:1;
+  background:orange;
+}
+
+.projectboxtop {
+  flex:1;
+  border-style: solid;
+}
+
+.projectboxbottom {
+  flex:1;
+  border-style: solid;
+}
+
+
+
+
+/* end of project page */
+
+
+
 /* about page css  */
-.mainpage {
+.mainpageabout {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -355,8 +388,5 @@ body p {
   width: 100%;
   height: 100%;
 }
-
-
-
 
 /* end about page css  */
