@@ -208,6 +208,7 @@ body p {
   flex:1;
   background:purple;
   justify-content:center;
+  align-items: center;
   background:pink;
   text-shadow: 2px 2px white;
   color: #640074;
@@ -231,7 +232,7 @@ body p {
 }
 
 .introbox img {
-  flex:2;
+  flex:5;
   border-style: solid;
   border-radius: 50%;
   width:250px;
@@ -239,10 +240,14 @@ body p {
 }
 
 .introbox p {
+  display:flex;
+  justify-content:center;
+  align-items: center;
   flex:1;
   border-style: solid;
-  width:50%;
+  width:fit-content;
   height:fit-content;
+  font-size:1vw
 }
 
 .projectsbox {
@@ -253,16 +258,57 @@ body p {
 }
 
 .projectboxtop {
+  margin:2vw;
+  display:flex;
+  justify-content: space-between;
   flex:1;
   border-style: solid;
 }
 
 .projectboxbottom {
+  display:flex;
+  justify-content: space-between;
+  margin:2vw;
   flex:1;
   border-style: solid;
 }
 
+.topleft {
+  display:flex;
+  text-align: center;
+  flex-direction: column;
+  flex:1;
+  border-style: solid;
+}
 
+.topright {
+  display:flex;
+  text-align: center;
+  flex-direction: column;
+  flex:1;
+  border-style: solid;
+}
+
+.bottomleft {
+  display:flex;
+  text-align: center;
+  flex-direction: column;
+  flex:1;
+  border-style: solid;
+}
+
+.bottomright {
+  display:flex;
+  text-align: center;
+  flex-direction: column;
+  flex:1;
+  border-style: solid;
+}
+
+.projectboxtop h1, h2, h3, h4 {
+  background:yellow;
+  font-size:1vw;
+}
 
 
 /* end of project page */
@@ -280,6 +326,7 @@ body p {
 #headingabout {
   display: flex;
   justify-content: center;
+  align-items: center;
   background:pink;
   text-shadow: 2px 2px white;
   color: #640074;
