@@ -260,6 +260,49 @@ body p {
   background:transparent;
 }
 
+
+@media only screen and (max-width: 1440px) and (min-width: 769px) {
+
+  .heading  {
+    font-size: 3vw;
+  }
+
+
+  .aboutpersonal img {
+    width: 35vw;
+    height: 50vw;
+  }
+  
+  .resumelink img {
+    height: 4.5vw;
+    width: 4.5vw;
+
+  }
+  
+.resumelink {
+  font-size: 1.5vw
+}
+
+
+ .aboutpersonal  p{
+  margin-inline-end:4vw;
+  height:fit-content;
+  font-size:1.4vw;
+}
+
+
+.professionalarticleheading { 
+  font-size: 2.5vw;
+  
+}
+
+.aboutprofessional p {
+  font-size: 1.4vw;
+}
+
+}
+
+
 @media only screen and (max-width: 768px) and (min-width: 581px) {
   
   .heading  {
@@ -341,7 +384,7 @@ body p {
 
   .aboutpersonal  p{
     margin-top: 10vw;
-    margin-bottom:1vw;
+    margin-bottom:2vw;
     margin-inline-end: 18vw;
     height:fit-content;
     font-size:2vw;
@@ -362,6 +405,61 @@ body p {
     font-size: 2vw;
   }
 } 
+
+  @media only screen and (max-width: 401px) and (min-width: 320px) {
+    
+  .heading  {
+    font-size: 6.5vw;
+    width:fit-content;
+    margin-inline-start: 30vw;
+  }
+
+
+  .aboutpersonal img {
+    width: 55vw;
+    height: 55vw;
+    margin-inline-start: 22vw;
+    margin-top:5vw;
+  }
+  
+  .resumelink img {
+    margin-top: 0vw;
+    height: 6.5vw;
+    width: 6.5vw;
+
+  }
+
+  .resumelink {
+    font-size: 2.5vw
+  }
+
+  .aboutpersonal  p{
+    margin-top: 10vw;
+    margin-bottom:2vw;
+    margin-inline-end: 15vw;
+    height:fit-content;
+    font-size:2.4vw;
+  }
+
+
+  .aboutprofessional {
+    display:flex;
+    flex-direction: column;
+  }
+  
+  .professionalarticleheading { 
+    font-size: 4.5vw;
+    
+  }
+
+  .aboutprofessional p {
+    font-size: 2.4vw;
+  }
+
+    
+  }
+
+
 /* end about page css  */
 
 
