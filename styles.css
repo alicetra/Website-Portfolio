@@ -165,7 +165,6 @@ body p {
 .aboutmain {
   display: flex;
   flex-direction: column;
-  justify-content: stretch;
   flex:1;
 }
 
@@ -211,18 +210,18 @@ body p {
 
 .aboutprofessional {
   display: flex;
-  width: 100%;
   background: #CAA0FF;
-  min-height: 40vh;
+  height:fit-content;
 }
 
 #workexperience {
   flex:1;
-  justify-items: center;
+
 }
 
 #education {
   flex:1;
+
 }
 
 #workexperience H1 {
@@ -241,7 +240,6 @@ body p {
   color: #640074;
   font-weight: bold;
   font-size: 2vw;
-  
 }
 
 .workexperience {
@@ -253,19 +251,16 @@ body p {
 }
 
 .aboutprofessional p {
-  margin-top: 1vw;
-  margin-left: 15vw;
-  display: flex;
-  width: 20vw;
-  height: 3vw;
+  display:flex;
+  width:auto;
+  justify-content:center;
   font-size: 1vw;
   color:#FFFFFF;
   font-weight: bold;
   background:transparent;
-
 }
 
-@media only screen and (max-width: 768px) and (min-width: 481px) {
+@media only screen and (max-width: 768px) and (min-width: 581px) {
   
   .heading  {
     font-size: 5vw;
@@ -278,7 +273,7 @@ body p {
     width: 25vw;
     height: 30vw;
     margin-inline-start: 35vw;
-    margin-top:5vw
+    margin-top:5vw;
   }
   
   .resumelink img {
@@ -287,6 +282,11 @@ body p {
     width: 4vw;
 
   }
+
+  
+.resumelink {
+  font-size: 1.5vw
+}
 
   .aboutpersonal  p{
     margin-top: 5vw;
@@ -300,7 +300,6 @@ body p {
   .aboutprofessional {
     display:flex;
     flex-direction: column;
-    min-height: 30vh;
   }
   
   .professionalarticleheading { 
@@ -310,57 +309,105 @@ body p {
 
   .aboutprofessional p {
     font-size: 1.5vw;
-    height:fit-content;
-    width:fit-content;
-    margin-left:20vw;
   }
 }
 
-/* end of about page*/
+@media only screen and (max-width: 580px) and (min-width: 400px) {
+
+  .heading  {
+    font-size: 6vw;
+    width:fit-content;
+    margin-inline-start: 30vw;
+  }
+
+
+  .aboutpersonal img {
+    width: 50vw;
+    height: 50vw;
+    margin-inline-start: 22vw;
+    margin-top:5vw;
+  }
+  
+  .resumelink img {
+    margin-top: 0vw;
+    height: 6vw;
+    width: 6vw;
+
+  }
+
+  .resumelink {
+    font-size: 2vw
+  }
+
+  .aboutpersonal  p{
+    margin-top: 10vw;
+    margin-bottom:1vw;
+    margin-inline-end: 18vw;
+    height:fit-content;
+    font-size:2vw;
+  }
+
+
+  .aboutprofessional {
+    display:flex;
+    flex-direction: column;
+  }
+  
+  .professionalarticleheading { 
+    font-size: 4vw;
+    
+  }
+
+  .aboutprofessional p {
+    font-size: 2vw;
+  }
+} 
+/* end about page css  */
+
 
 /* project page css */
 
- .introtoprojects {
-   width: 30vw;
- }
+.introtoprojects {
+  width: 30vw;
+}
 
- .introtoprojects p {
-   font-size: 1vw;
-   background: #CAA0FF;
-   margin-top: 1vw;
-   height: fit-content;
-   color : var(--main-text-color);
-   width:15vw;
-   margin-left:2vw ;
-   text-align: center;
- }
+.introtoprojects p {
+  font-size: 1vw;
+  background: #CAA0FF;
+  margin-top: 1vw;
+  height: fit-content;
+  color : var(--main-text-color);
+  width:15vw;
+  margin-left:2vw ;
+  text-align: center;
+}
 
- .introtoprojects img {
-   margin-top: 1vw;
-   margin-left: 2vw;
-   width: 15vw;
-   height: 15vw;
-   border-radius: 50%;
- }
+.introtoprojects img {
+  margin-top: 1vw;
+  margin-left: 2vw;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+}
 
- .projectslinks {
-  width: 80vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+.projectslinks {
+ width: 80vw;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
 }
 
 
 .projectslinks img {
-  background:pink;
-  height: 10vw;
-  width: 10vw;
-  margin-top: .5vw;
+ background:pink;
+ height: 10vw;
+ width: 10vw;
+ margin-top: .5vw;
 
 }
 .projectsflexbox {
-  display: flex;
-  justify-content: space-around;
+ display: flex;
+ justify-content: space-around;
 }
 
 /* end of project page */
