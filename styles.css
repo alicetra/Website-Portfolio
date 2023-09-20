@@ -206,7 +206,6 @@ body p {
 .headingbox {
   display:flex;
   flex:1;
-  background:purple;
   justify-content:center;
   align-items: center;
   background:pink;
@@ -235,19 +234,20 @@ body p {
   flex:5;
   border-style: solid;
   border-radius: 50%;
-  width:250px;
-  height:250px;
+  width:500px;
 }
 
 .introbox p {
   display:flex;
   justify-content:center;
   align-items: center;
-  flex:1;
+  flex:5;
   border-style: solid;
   width:fit-content;
   height:fit-content;
-  font-size:1vw
+  font-size:1.5vw;
+  margin-left:10vw;
+  margin-right:10vw;
 }
 
 .projectsbox {
@@ -312,8 +312,6 @@ body p {
 
 
 /* end of project page */
-
-
 
 
 
@@ -460,7 +458,8 @@ body p {
   height: 100%;
 }
 
-@media screen and (max-width: 840px) and (min-width: 700px) {
+@media screen and (max-width: 1449px) and (min-width: 700px) {
+  
   .personalbox {
     background:orange;
   }
@@ -532,34 +531,39 @@ body p {
     font-size:3vw;
   }
 
-  @media screen and (max-width: 450px) and (min-width: 320px) {
-
-    #headingabout {
-      font-size: 8vw;
-    }
-
+  @media screen and (max-width: 453px) and (min-width: 320px) { 
     .personalbox {
       background:green;
       flex:13;
     }
 
+    #headingabout {
+      font-size: 8vw;
+    }
+  
+  
     .perfonsalleftmainpicture {
       height: 400px;
       width: 200px;
     }
-
+  
     #resumelogo {
       width:30px;
       height:20px;
     }  
-
+  
     .professionalarticleheading {
       font-size:6vw;
     }
-
+  
     .professionalbox p {
       font-size:3.5vw;
     }
+
+    .personalright p {
+      font-size:4vw;
+    }
+
   }
 
 
