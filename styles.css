@@ -349,8 +349,15 @@ body p {
   display: flex;
   flex-direction: column;
   flex: 1;
-
 }
+
+.imagegbox {
+  flex:7;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+}
+
 
 .personalright {
   display: flex;
@@ -370,7 +377,7 @@ body p {
 
 .perfonsalleftmainpicture {
   flex:10;
-  height: 400px;
+  height: 500px;
   width: 400px;
   margin: 2vw;
   margin-bottom: 0vw;
@@ -455,17 +462,16 @@ body p {
 
 @media screen and (max-width: 840px) and (min-width: 700px) {
   .personalbox {
-    background:purple;
+    background:orange;
   }
 
 
   #headingabout {
-    font-size: 4.5vw;
+    font-size: 5.5vw;
   }
 
-
   .perfonsalleftmainpicture {
-    height: 250px;
+    height: 600px;
     width: 350px;
   }
 
@@ -474,42 +480,14 @@ body p {
     height:40px;
   }
 
-  .professionalbox {
-    flex:1;
-  }
-  
-  .professionalarticleheading {
-    font-size:5vw;
-  }
-
-  .professionalbox p {
+  .resumebox p {
     font-size:2vw;
   }
-}
 
-
-@media screen and (max-width: 701px) and (min-width: 551px) {
- .personalbox {
-    background:green;
-  }
-
-  #headingabout {
-    font-size: 5vw;
-  }
-
-
-  .perfonsalleftmainpicture {
-    height: 200px;
-    width: 300px;
-  }
   .personalright p {
     font-size:2.5vw;
   }
-
-  #resumelogo {
-    width:30px;
-    height:30px;
-  }
+  
 
   .professionalbox {
     flex:1;
@@ -522,9 +500,36 @@ body p {
   .professionalbox p {
     font-size:2.5vw;
   }
- }
+}
 
+@media (max-width: 700px) {
+  .personalbox {
+    flex-direction: column;
+  }
 
+  .perfonsalleftmainpicture {
+    height: 600px;
+    width: 400px;
+  }
 
+  #headingabout {
+    font-size: 7vw;
+  }
+
+  .personalright p {
+    font-size:3vw;
+  }
+
+  .resumebox p {
+    font-size:2vw;
+  }
+  
+  .professionalarticleheading {
+    font-size:6vw;
+  }
+
+  .professionalbox p {
+    font-size:2.5vw;
+  }
 
 /* end about page css  */
