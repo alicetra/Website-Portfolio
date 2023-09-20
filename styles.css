@@ -453,23 +453,25 @@ body p {
   height: 100%;
 }
 
-@media screen and (max-width: 840px) and (min-width: 550px) {
+@media screen and (max-width: 840px) and (min-width: 700px) {
   .personalbox {
     background:purple;
   }
+
+
   #headingabout {
     font-size: 4.5vw;
   }
 
 
   .perfonsalleftmainpicture {
-    height: 100px;
-    width: 200px;
+    height: 250px;
+    width: 350px;
   }
 
   #resumelogo {
-    width:30px;
-    height:30px;
+    width:40px;
+    height:40px;
   }
 
   .professionalbox {
@@ -484,6 +486,44 @@ body p {
     font-size:2vw;
   }
 }
+
+
+@media screen and (max-width: 701px) and (min-width: 551px) {
+ .personalbox {
+    background:green;
+  }
+
+  #headingabout {
+    font-size: 5vw;
+  }
+
+
+  .perfonsalleftmainpicture {
+    height: 200px;
+    width: 300px;
+  }
+  .personalright p {
+    font-size:2.5vw;
+  }
+
+  #resumelogo {
+    width:30px;
+    height:30px;
+  }
+
+  .professionalbox {
+    flex:1;
+  }
+  
+  .professionalarticleheading {
+    font-size:5.5vw;
+  }
+
+  .professionalbox p {
+    font-size:2.5vw;
+  }
+ }
+
 
 
 
