@@ -161,33 +161,50 @@ body p {
 /* end of header code that runs across all pages of the website except the index page  */
 
 
+
 /* blog page css  */
-.blogarticles {
-  display: flex;
-  justify-content: center;
+
+.mainpageblog {
+  display:flex;
+  flex:1;
+  background:green;
   flex-direction: column;
-  width: 100vw;
-  justify-content: space-evenly;
 
 }
+.headingboxblog {
+  display:flex;
+  border-style: solid;
+  justify-content:center;
+  align-items: center;
+  background:pink;
+  text-shadow: 2px 2px white;
+  color: #640074;
+  font-weight: bold;
+  font-size: 1.5vw;
+}
 
-.articlesflexbox {
-  display: flex;
-  justify-content: space-evenly;
+.contentboxblog {
+  flex:1;
+  border-style: solid;
 }
 
 
-.blogarticles img {
-  width: 15vw;
-   height: 15vw;
-}
 
-.blogarticles p {
-  width: 15vw;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* end of blog page */
-
 
 
 /* project page css */
@@ -203,7 +220,7 @@ body p {
   flex-direction:column;
 }
 
-.headingbox {
+.headingboxprojects {
   display:flex;
   flex:1;
   justify-content:center;
@@ -215,7 +232,7 @@ body p {
   font-size: 1.5vw;
 }
 
-.contentbox {
+.contentboxproject {
   display:flex;
   flex:7;
   background:red;
@@ -315,7 +332,7 @@ body p {
     flex-direction: column;
   }
 
-  .headingbox {
+  .headingboxprojects {
     font-size: 3.5vw;
   }
 .introbox p {
@@ -331,6 +348,7 @@ body p {
 }
 .introbox p {
 margin-top: 1.5vw;
+margin:0vw;
 }
 
 .introbox img {
