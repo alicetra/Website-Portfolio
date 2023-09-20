@@ -315,11 +315,30 @@ body p {
     flex-direction: column;
   }
 
+  .headingbox {
+    font-size: 3.5vw;
+  }
 .introbox p {
-  font-size:2vw;
+  font-size:2.5vw;
+}
+
+.projectboxtop h1, h2, h3, h4 {
+  font-size:2.5vw;
+}
+
+.introbox {
+  margin: 1.5vw;
+}
+.introbox p {
+margin-top: 1.5vw;
+}
+
+.introbox img {
+  width:250px;
 }
 
 }
+
 
 /* end of project page */
 
@@ -540,8 +559,9 @@ body p {
   .professionalbox p {
     font-size:3vw;
   }
+}
 
-  @media screen and (max-width: 453px) and (min-width: 320px) { 
+  @media screen and (max-width: 453px) and (min-width: 320px) {
     .personalbox {
       background:green;
       flex:13;
