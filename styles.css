@@ -736,6 +736,10 @@ margin:0vw;
       font-size:4vw;
     }
 
+    .professionalbox {
+      flex-direction: column;
+    }
+
   }
 
 /* end about page css  */
