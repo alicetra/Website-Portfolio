@@ -439,6 +439,7 @@ body a {
   border-style: solid;
 }
 
+
 .projectboxtop h1, h2, h3, h4 {
   background:yellow;
   font-size:1vw;
@@ -583,16 +584,19 @@ margin:0vw;
   display:flex;
   background:blue;
   flex:3;
-  flex-wrap: wrap;
-
 }
+
+
 
 .professionalleft {
   background:purple;
   flex:1;
+  border-style: solid;
+  
 }
 
 .professionalright {
+  border-style: solid;
   background:orange;
   flex:1;
 }
@@ -602,9 +606,11 @@ margin:0vw;
   justify-content: center;
   background:blue;
   font-size:3vw;
+  border-style: solid;
 }
 
 .professionalbox p {
+  border-style: solid;
   font-size:1.3vw;
   display:flex;
   justify-content: center;
@@ -613,14 +619,15 @@ margin:0vw;
 
 .professionalleft p {
   width:100%;
-  height: 100%;
 }
 
 .professionalright p {
   background:yellow;
   width: 100%;
-  height: 100%;
+
 }
+
+
 
 @media screen and (max-width: 1449px) and (min-width: 700px) {
   
@@ -730,6 +737,5 @@ margin:0vw;
     }
 
   }
-
 
 /* end about page css  */
