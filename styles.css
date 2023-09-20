@@ -436,7 +436,10 @@ body p {
 }
 
 .professionalbox p {
-  font-size:1.3vw
+  font-size:1.3vw;
+  display:flex;
+  justify-content: center;
+  margin-top: 1vw;
 }
 
 .professionalleft p {
@@ -450,10 +453,14 @@ body p {
   height: 100%;
 }
 
-@media screen and (max-width: 830px) and (min-width: 550px) {
+@media screen and (max-width: 840px) and (min-width: 550px) {
   .personalbox {
     background:purple;
   }
+  #headingabout {
+    font-size: 4.5vw;
+  }
+
 
   .perfonsalleftmainpicture {
     height: 100px;
@@ -464,7 +471,20 @@ body p {
     width:30px;
     height:30px;
   }
-    
+
+  .professionalbox {
+    flex:1;
+  }
+  
+  .professionalarticleheading {
+    font-size:5vw;
+  }
+
+  .professionalbox p {
+    font-size:2vw;
+  }
 }
+
+
 
 /* end about page css  */
