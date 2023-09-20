@@ -529,7 +529,38 @@ body p {
   }
 
   .professionalbox p {
-    font-size:2.5vw;
+    font-size:3vw;
   }
+
+  @media screen and (max-width: 450px) and (min-width: 320px) {
+
+    #headingabout {
+      font-size: 8vw;
+    }
+
+    .personalbox {
+      background:green;
+      flex:13;
+    }
+
+    .perfonsalleftmainpicture {
+      height: 400px;
+      width: 200px;
+    }
+
+    #resumelogo {
+      width:30px;
+      height:20px;
+    }  
+
+    .professionalarticleheading {
+      font-size:6vw;
+    }
+
+    .professionalbox p {
+      font-size:3.5vw;
+    }
+  }
+
 
 /* end about page css  */
