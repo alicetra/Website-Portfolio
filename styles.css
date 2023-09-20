@@ -315,6 +315,8 @@ body p {
 
 
 
+
+
 /* about page css  */
 .mainpageabout {
   flex: 1;
@@ -368,8 +370,8 @@ body p {
 
 .perfonsalleftmainpicture {
   flex:10;
-  height: 110px;
-  width: 110px;
+  height: 400px;
+  width: 400px;
   margin: 2vw;
   margin-bottom: 0vw;
 }
@@ -384,7 +386,6 @@ body p {
 .resumebox {
   flex:1;
   display:flex;
-  flex-direction: row;
   background:green;
 }
 
@@ -392,8 +393,8 @@ body p {
   display:flex;
   margin-inline-start: 2vw;
   background:orange;
-  width:10px;
-  height:10px;
+  width:50px;
+  height:40px;
 }
 
 .resumebox p {
@@ -404,6 +405,7 @@ body p {
   text-shadow: 2px 2px white;
   color: #640074;
   font-weight: bold;
+  font-size:1.5vw;
 }
 
 
@@ -411,7 +413,7 @@ body p {
 .professionalbox {
   display:flex;
   background:blue;
-  flex:1;
+  flex:3;
   flex-wrap: wrap;
 
 }
@@ -446,6 +448,23 @@ body p {
   background:yellow;
   width: 100%;
   height: 100%;
+}
+
+@media screen and (max-width: 830px) and (min-width: 550px) {
+  .personalbox {
+    background:purple;
+  }
+
+  .perfonsalleftmainpicture {
+    height: 100px;
+    width: 200px;
+  }
+
+  #resumelogo {
+    width:30px;
+    height:30px;
+  }
+    
 }
 
 /* end about page css  */
