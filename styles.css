@@ -93,8 +93,10 @@ body a {
 
 /* end of global css code  */
 
+
 /*  index page css */
-.mainpageheader {
+
+/* .mainpageheader {
   background:black;
 }
 .mainpageheader nav {
@@ -109,8 +111,111 @@ body a {
   color : var(--main-text-color);
   font-weight: bold;
 }
+ */
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background:black;
+  color : var(--main-text-color);
+  font-weight:bolder;
+  font-size:2vw;
+  height: 3vw;
+}
+
+.menu li:hover{
+  color:#640074;
+  cursor:pointer;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+.menu > li {
+  margin: 0 1vw;;
+  overflow: hidden;
+}
+/*Container for menu button  */
+.menu-button-container {
+  display: none;
+  flex-direction: column;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+/*  Creating the menu button */
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+  display: block;
+  background-color: white;
+  position: absolute;
+  height: .5vw;
+  width: 5vw;
+  border-radius: 1vw;
+}
+
+.menu-button::before {
+  content: '';
+  margin-top: -.8vw;
+}
+
+.menu-button::after {
+  content: '';
+  margin-top: .8vw;
+}
 
 
+@media (max-width: 768px) {
+  .menu-button-container {
+    display: flex;
+  }
+
+  .menu {
+    position: absolute;
+    top: 0;
+    margin-top: 8vw;
+    left: 0;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+  #menu-toggle ~ .menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  #menu-toggle:checked ~ .menu li {
+    border: .2vw solid rgb(148, 111, 216);
+    height: 5vw;
+    padding: 1.5vw;
+  }
+
+  .menu > li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    background-color: black;
+    font-weight:bold;
+    font-size:3vw
+  }
+  
+}
+
+ 
 .mainpageindex p {
   color: white;
   font-weight: bold;
