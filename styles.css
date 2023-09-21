@@ -314,7 +314,7 @@ body a {
 }
 
 
-@media (max-width: 791px) {
+@media (max-width: 1027px) {
   .menu-button-container {
     display: flex;
   }
