@@ -96,24 +96,8 @@ body a {
 
 /*  index page css */
 
-/* .mainpageheader {
-  background:black;
-}
-.mainpageheader nav {
-  display: flex;
-  justify-content:end;
-}
-.mainpageheader a {
-  margin: 0 4vw;
-  font-size: 2vw;
-  text-decoration:none;
-  text-shadow: var(--main-tabcontent-text-shadow);
-  color : var(--main-text-color);
-  font-weight: bold;
-}
- */
 
-.nav {
+.navindex {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -127,7 +111,6 @@ body a {
 
 .menu li:hover{
   color:#640074;
-  cursor:pointer;
 }
 
 .menu {
@@ -141,7 +124,7 @@ body a {
   margin: 0 1vw;;
   overflow: hidden;
 }
-/*Container for menu button  */
+
 .menu-button-container {
   display: none;
   flex-direction: column;
@@ -151,7 +134,6 @@ body a {
   display: none;
 }
 
-/*  Creating the menu button */
 .menu-button,
 .menu-button::before,
 .menu-button::after {
@@ -215,7 +197,6 @@ body a {
   
 }
 
- 
 .mainpageindex p {
   color: white;
   font-weight: bold;
@@ -267,8 +248,6 @@ body a {
 }
 
 }
-
-
 
 /* end of index page code  */
 
@@ -873,7 +852,7 @@ margin:0vw;
   }
 
   .resumebox p {
-    font-size:2vw;
+    font-size:3vw;
   }
   
   .professionalarticleheading {
