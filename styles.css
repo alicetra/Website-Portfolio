@@ -553,6 +553,7 @@ body a {
 /* project page css */
 
 .mainpageprojects {
+  margin-top: 5vw;
   flex: 1;
   display: flex;
 }
@@ -674,7 +675,11 @@ body a {
   font-size:1vw;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
+  
+.mainpageprojects {
+  margin-top: 7vw;}
+
   .contentboxproject {
     flex-direction: column;
   }
@@ -705,6 +710,9 @@ margin:0vw;
 }
 
 @media screen and (max-width: 425px) {
+
+  .mainpageprojects {
+    margin-top: 10vw;}
 
   .headingboxprojects {
     font-size: 4vw;
