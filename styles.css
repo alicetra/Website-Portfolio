@@ -94,69 +94,49 @@ body a {
 /* end of global css code  */
 
 /*  index page css */
+
 .mainpageindex {
   flex:1;
   background:#28042e;
-  background-image: linear-gradient(to bottom, rgb(4, 1, 5) 15%,rgba(255,153,153,0) 75%,rgb(11, 10, 27) 85%),url(MOSHED-2023-9-14-11-32-20.gif);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.692) 15%,rgba(255,153,153,0) 75%,rgba(21, 17, 41, 0.603) 85%),url(MOSHED-2023-9-14-11-32-20.gif);
    background-repeat: no-repeat;
    background-position:center;
+   background-size:cover;
+   
 }
+
 .mainpageindex p {
   color: white;
   font-weight: bold;
-  font-size:9vw;
+  font-size:3vw;
   display:flex;
   justify-content: center;
 }
 
-
-
-
-
-/* .mainpageheader nav {
-   display: flex;
-   justify-content: end;
+@media screen and (max-width: 1126px) {
+  .mainpageindex p {
+    font-size:4.5vw;
+  }
 }
 
-.mainpageheader a {
-   margin: 0 4vw;
-   font-size: 2vw;
-   text-decoration:none;
-   text-shadow: var(--main-tabcontent-text-shadow);
-   color : var(--main-text-color);
-   font-weight: bold;
-
+@media screen and (max-width: 695px) {
+  .mainpageindex p {
+    font-size:5vw;
+  }
 }
 
- .mainpageindex {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: end;
-  flex-grow: 1;
- }
 
- .mainpageindex p {
-  margin-inline-end: 8%;
-  font-size: 5.5vw;
-  width:fit-content;
-  text-shadow:var(--main-tabcontent-text-shadow);
-  color : var(--main-text-color);
-  background:transparent;
-  font-weight:bold;
- }
+@media screen and (max-width: 624px) {
 
- 
+  .mainpageindex {
+    background-image: linear-gradient(to bottom, rgb(4, 1, 5) 15%,rgba(255,153,153,0) 75%,rgb(11, 10, 27) 85%),url(MOSHED-2023-9-14-11-32-20.gif);
+  }
 
+.mainpageindex p {
+  font-size:9vw;
+}
 
-#homepage{
-   background-image: url(MOSHED-2023-9-14-11-32-20.gif);
-   background-repeat: no-repeat;
-   background-size:100% 100%;
-
-} 
- */
-
+}
 
 /* end of index page code  */
 
@@ -181,6 +161,7 @@ body a {
    font-weight: bold;
 
 }
+
 
 /* end of header code that runs across all pages of the website except the index page  */
 
@@ -813,7 +794,15 @@ margin:0vw;
     .professionalbox {
       flex-direction: column;
     }
+    .resumebox p {
+      font-size:3.5vw;
+    }
 
+    #resumelogo {
+      width:40px;
+      height:40px;
+    }
+    
   }
 
 /* end about page css  */
