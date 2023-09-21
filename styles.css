@@ -109,34 +109,34 @@ body a {
   height: 3vw;
 }
 
-.menu li:hover{
+.menuindex li:hover{
   color:#640074;
 }
 
-.menu {
+.menuindex {
   display: flex;
   flex-direction: row;
   margin: 0;
   padding: 0;
 }
 
-.menu > li {
+.menuindex > li {
   margin: 0 1vw;;
   overflow: hidden;
 }
 
-.menu-button-container {
+.menu-button-container-index {
   display: none;
   flex-direction: column;
 }
 
-#menu-toggle {
+#menu-toggle-index {
   display: none;
 }
 
-.menu-button,
-.menu-button::before,
-.menu-button::after {
+.menu-button-index,
+.menu-button-index::before,
+.menu-button-index::after {
   display: block;
   background-color: white;
   position: absolute;
@@ -145,23 +145,23 @@ body a {
   border-radius: 1vw;
 }
 
-.menu-button::before {
+.menu-button-index::before {
   content: '';
   margin-top: -.8vw;
 }
 
-.menu-button::after {
+.menu-button-index::after {
   content: '';
   margin-top: .8vw;
 }
 
 
-@media (max-width: 768px) {
-  .menu-button-container {
+@media (max-width: 791px) {
+  .menu-button-container-index {
     display: flex;
   }
 
-  .menu {
+  .menuindex {
     position: absolute;
     top: 0;
     margin-top: 8vw;
@@ -171,20 +171,20 @@ body a {
     justify-content: center;
     align-items: center;
   }
-  #menu-toggle ~ .menu li {
+  #menu-toggle-index ~ .menuindex li {
     height: 0;
     margin: 0;
     padding: 0;
     border: 0;
   }
 
-  #menu-toggle:checked ~ .menu li {
+  #menu-toggle-index:checked ~ .menuindex li {
     border: .2vw solid rgb(148, 111, 216);
     height: 5vw;
     padding: 1.5vw;
   }
 
-  .menu > li {
+  .menuindex > li {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,7 +200,7 @@ body a {
 .mainpageindex p {
   color: white;
   font-weight: bold;
-  font-size:3.5vw;
+  font-size:4vw;
   display:flex;
   align-items: center;
   justify-content: end;
@@ -235,7 +235,7 @@ body a {
   }
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 791px) {
 .mainpageindex p {
   font-size:9vw;
 }
@@ -251,28 +251,109 @@ body a {
 
 /* end of index page code  */
 
+
 /* header code that runs across all pages of the website except the index page  */
-.pageheader {
-   background-image: url(tumblr_o0qppfgN9i1txt22yo1_500.webp);
-   background-size:cover;
- 
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(tumblr_o0qppfgN9i1txt22yo1_500.webp);
+  background-size:cover;
+  color : #640074;
+  font-weight:bolder;
+  font-size:2vw;
+  height: 3vw;
 }
 
-.pageheader nav {
-   display: flex;
-   justify-content:end;
+.menu li:hover{
+  color:#000000;
 }
 
-.pageheader a {
-   margin: 0 4vw;
-   font-size: 2vw;
-   text-decoration:none;
-   text-shadow: var(--main-tabcontent-text-shadow);
-   color : var(--main-text-color);
-   font-weight: bold;
-
+.menu {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
 }
 
+.menu > li {
+  margin: 0 1vw;;
+  overflow: hidden;
+}
+
+.menu-button-container {
+  display: none;
+  flex-direction: column;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+  display: block;
+  background-color: #000000;
+  position: absolute;
+  height: .5vw;
+  width: 5vw;
+  border-radius: 1vw;
+}
+
+.menu-button::before {
+  content: '';
+  margin-top: -.8vw;
+}
+
+.menu-button::after {
+  content: '';
+  margin-top: .8vw;
+}
+
+
+@media (max-width: 791px) {
+  .menu-button-container {
+    display: flex;
+  }
+
+  .menu {
+    position: absolute;
+    top: 0;
+    margin-top: 8vw;
+    left: 0;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+  #menu-toggle ~ .menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  #menu-toggle:checked ~ .menu li {
+    border: .2vw solid rgb(148, 111, 216);
+    height: 5vw;
+    padding: 1.5vw;
+  }
+
+  .menu > li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: 640074;
+    background-color: #D9D9D9;
+    font-weight:bold;
+    font-size:3vw
+  }
+  
+}
 
 /* end of header code that runs across all pages of the website except the index page  */
 
