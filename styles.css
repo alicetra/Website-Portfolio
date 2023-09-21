@@ -401,6 +401,7 @@ body a {
   justify-content: space-between;
   flex:1;
   border-style: solid;
+  background:red;
 }
 
 .projectboxbottom {
@@ -409,6 +410,7 @@ body a {
   margin:2vw;
   flex:1;
   border-style: solid;
+  background:pink;
 }
 
 .topleft {
@@ -479,6 +481,38 @@ margin:0vw;
 
 }
 
+@media screen and (max-width: 425px) {
+
+  .headingboxprojects {
+    font-size: 4vw;
+  }
+
+  .introbox p {
+    font-size:3.5vw;
+  }
+
+  .projectsbox {
+    background:blue;
+  }
+
+  .projectboxtop {
+    flex-direction: column;
+    
+  }
+  
+  .projectboxbottom {
+    flex-direction: column;
+  }
+
+  .projectboxtop h1, h2, h3, h4 {
+    font-size:3.5vw;
+  }
+
+  .projectsbox img {
+    height:50vw;
+    width:50vw
+  }
+}
 
 /* end of project page */
 
