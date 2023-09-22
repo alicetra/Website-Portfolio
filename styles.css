@@ -32,89 +32,84 @@ body a {
   text-decoration: none;
 }
 
- .footer img {
-  width: 2vw;
-  height: 2vw;
-}
 
-.footer {
-  display: flex;
+footer {
+  display:flex;
+  flex-direction: column;
   background:black;
-  color : var(--main-text-color);
-  font-size: 1.3vw;
-  gap:2vw;
 }
 
-.footerbox1 {
+.footer img {
+  width:2vw;
+  height:2vw;
+}
+
+.footerphoneandemailcontainer {
   display:flex;
-  align-items: center;
+  gap:1vw;
+  font-size:1.5vw;
+  color:white;
+  font-weight:bold;
+}
+
+#p1footer {
   flex:1;
+  text-align: end;
 }
 
-.footerbox2 {
+#p2footer {
+  flex:1;
+  text-align:start;
+}
+
+.footersociallogo {
   display:flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex:2;
+  gap:3vw;
 }
 
-.emailfooter {
-  display: inline-block;
-  position: relative;
-  left : 0%;
-  margin:.2vw
+#footerlogo1 {
+  flex:1;
+  text-align: end;
 }
 
-.callfooter {
-  display: inline-block;
-  position: relative;
-  left : 15%;
-  margin:.2vw
+#footerlogo2 {
+  flex:1;
+  text-align:start;
 }
 
-
-@media screen and (max-width: 1099px) {
-  .footer {
+@media (max-width: 1139px) {
+  .footerphoneandemailcontainer {
     flex-direction: column;
-  }
+    font-size:2vw
+}
 
-  
-.footer {
-  font-size: 2vw;
+#p1footer {
+ text-align: center;
+}
+
+#p2footer {
+  text-align: center;
+
 }
 
 .footer img {
-  width: 2.5vw;
-  height: 2.5vw;
-}
-
-.footerbox1 {
-  justify-content: center;
-
-}
-
-.footerbox2 {
-  justify-content: space-evenly;
+  width:3vw;
+  height:3vw;
 }
 
 }
 
-@media screen and (max-width: 875px) {
-  .footer {
-    flex-direction: column;
-  }
-
-  
-.footer {
-  font-size: 3vw;
+@media (max-width: 583px) {
+  .footerphoneandemailcontainer {
+    font-size:3vw
 }
 
 .footer img {
-  width: 3.5vw;
-  height: 3.5vw;
-}
+  width:4vw;
+  height:4vw;
 }
 
+}
 
 /* end of global css code  */
 
@@ -646,6 +641,7 @@ body a {
   margin-left:10vw;
   margin-right:10vw;
   background:#CAA0FF;
+  margin-top: 1vw;
 }
 
 .projectsbox {
@@ -705,7 +701,8 @@ body a {
 }
 
 @media screen and (max-width: 1024px) {
-  
+
+
 .mainpageprojects {
   margin-top: 7vw;}
 
