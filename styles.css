@@ -148,15 +148,11 @@ body a {
   align-items: center;
   justify-content: space-between;
   background:black;
-  color : var(--main-text-color);
   font-weight:bolder;
   font-size:2vw;
   height: 3vw;
 }
 
-.menuindex li:hover{
-  color:#640074;
-}
 
 .menuindex {
   display: flex;
@@ -234,12 +230,26 @@ body a {
     justify-content: center;
     align-items: center;
     width: 100%;
-    color: white;
-    background-color: black;
+    background-color: rgb(231, 228, 228);
     font-weight:bold;
     font-size:3vw
   }
   
+}
+
+
+@media (max-width: 643px) { 
+  .menuindex {
+    margin-top: 10vw;
+  }
+
+}
+
+@media (max-width: 419px) { 
+  .menuindex {
+    margin-top: 12.5vw;
+  }
+
 }
 
 .mainpageindex p {
@@ -372,7 +382,7 @@ body a {
   .menu {
     position: absolute;
     top: 0;
-    margin-top: 8vw;
+    margin-top: 7vw;
     left: 0;
     flex-direction: column;
     width: 50%;
@@ -403,6 +413,20 @@ body a {
     font-size:3vw
   }
   
+}
+
+@media (max-width: 643px) { 
+  .menu {
+    margin-top: 10vw;
+  }
+
+}
+
+@media (max-width: 419px) { 
+  .menu {
+    margin-top: 12.5vw;
+  }
+
 }
 
 /* end of header code that runs across all pages of the website except the index page  */
