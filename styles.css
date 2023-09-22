@@ -751,6 +751,7 @@ margin:0vw;
 
 /* about page css  */
 .mainpageabout {
+  margin-top:5vw;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -899,6 +900,10 @@ margin:0vw;
 
 
 @media screen and (max-width: 1449px) and (min-width: 700px) {
+
+  .mainpageabout {
+    margin-top:7vw;
+  }
   
   .personalbox {
     background:orange;
@@ -942,6 +947,10 @@ margin:0vw;
 }
 
 @media (max-width: 700px) {
+  .mainpageabout {
+    margin-top:8vw;
+  }
+
   .personalbox {
     flex-direction: column;
     background:pink
@@ -979,6 +988,10 @@ margin:0vw;
 }
 
   @media screen and (max-width: 453px) and (min-width: 320px) {
+    .mainpageabout {
+      margin-top:10vw;
+    }
+
     .personalbox {
       background:green;
       flex:13;
