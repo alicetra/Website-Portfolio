@@ -727,7 +727,6 @@ body a {
 
 
 .projectboxtop h1, h2, h3, h4 {
-  background:yellow;
   font-size:1vw;
 }
 
@@ -811,6 +810,7 @@ margin:0vw;
   flex: 1;
   display: flex;
   flex-direction: column;
+  color:white
 
 }
 
@@ -818,7 +818,6 @@ margin:0vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  background:pink;
   text-shadow: 2px 2px white;
   color: #640074;
   font-weight: bold;
@@ -830,7 +829,6 @@ margin:0vw;
 .personalbox {
   display: flex;
   flex:2;
-  background:yellow;
   flex-wrap: wrap;
 }
 
@@ -849,11 +847,13 @@ margin:0vw;
 
 
 .personalright {
+  margin-top: 1vw;
+  margin-bottom: 1vw;
   display: flex;
   justify-content: center;
   align-items: center;
   flex: 2;
-  background:brown;
+  background:#7245AC;
 }
 
 .personalright p {
@@ -882,20 +882,17 @@ margin:0vw;
 .resumebox {
   flex:1;
   display:flex;
-  background:green;
 }
 
 #resumelogo {
   display:flex;
   margin-inline-start: 2vw;
-  background:orange;
   width:50px;
   height:40px;
 }
 
 .resumebox p {
   display:flex;
-  background:brown;
   margin-bottom: 1vw;
   margin-left:2vw;
   text-shadow: 2px 2px white;
@@ -907,36 +904,35 @@ margin:0vw;
 
 
 .professionalbox {
+  background:#CAA0FF;
   display:flex;
-  background:blue;
   flex:3;
+  border-style: solid;
+  border-color: #640074;
+  border-width: .2vw;
 }
 
 
 
 .professionalleft {
-  background:purple;
   flex:1;
-  border-style: solid;
   
 }
 
 .professionalright {
-  border-style: solid;
-  background:orange;
   flex:1;
 }
 
 .professionalarticleheading {
   display:flex;
   justify-content: center;
-  background:blue;
   font-size:3vw;
-  border-style: solid;
+  text-shadow: 2px 2px white;
+  color: #640074;
 }
 
 .professionalbox p {
-  border-style: solid;
+  font-weight:bold;
   font-size:1.3vw;
   display:flex;
   justify-content: center;
@@ -948,7 +944,6 @@ margin:0vw;
 }
 
 .professionalright p {
-  background:yellow;
   width: 100%;
 
 }
@@ -961,10 +956,6 @@ margin:0vw;
     margin-top:7vw;
   }
   
-  .personalbox {
-    background:orange;
-  }
-
 
   #headingabout {
     font-size: 5.5vw;
@@ -1009,7 +1000,6 @@ margin:0vw;
 
   .personalbox {
     flex-direction: column;
-    background:pink
   }
 
   .perfonsalleftmainpicture {
@@ -1049,7 +1039,6 @@ margin:0vw;
     }
 
     .personalbox {
-      background:green;
       flex:13;
     }
 
