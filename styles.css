@@ -624,6 +624,7 @@ body a {
 .introbox {
   display:flex;
   align-items: center;
+  text-align: center;
   flex-direction:column;
   flex:1;
 }
