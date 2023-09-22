@@ -53,17 +53,30 @@ body a {
  */
 
  .footer img {
-  width: 1.5vw;
-  height: 1.5vw;
+  width: 2vw;
+  height: 2vw;
 }
 
 .footer {
   display: flex;
   background:black;
   color : var(--main-text-color);
-  font-size: 1vw;
+  font-size: 1.3vw;
+  gap:2vw;
 }
 
+.footerbox1 {
+  display:flex;
+  align-items: center;
+  flex:1;
+}
+
+.footerbox2 {
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex:2;
+}
 
 .emailfooter {
   display: inline-block;
@@ -75,21 +88,53 @@ body a {
 .callfooter {
   display: inline-block;
   position: relative;
-  left : 5%;
+  left : 20%;
   margin:.2vw
 }
 
-.linkedinfooter {
-  display: inline-block;
-  position:relative;
-  left : 6%;
+
+@media screen and (max-width: 1099px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  
+.footer {
+  font-size: 2vw;
 }
 
-.githubfooter {
-  display: inline-block;
-  position:relative;
-  left : 12%;
+.footer img {
+  width: 2.5vw;
+  height: 2.5vw;
 }
+
+.footerbox1 {
+  justify-content: center;
+
+}
+
+.footerbox2 {
+  justify-content: space-evenly;
+}
+
+}
+
+@media screen and (max-width: 875px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  
+.footer {
+  font-size: 3vw;
+}
+
+.footer img {
+  width: 3.5vw;
+  height: 3.5vw;
+}
+}
+
 
 /* end of global css code  */
 
@@ -709,7 +754,7 @@ margin:0vw;
 
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 597px) {
 
   .mainpageprojects {
     margin-top: 10vw;}
