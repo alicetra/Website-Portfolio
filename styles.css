@@ -27,30 +27,10 @@
   flex-grow: 1;
 }
 
-.heading  {
-  text-shadow: 2px 2px white;
-  color: #640074;
-  width: 20vw;
-  font-weight: bold;
-  font-size: 2vw;
-  margin-left: 2vw;;
-}
 
 body a {
   text-decoration: none;
 }
-
-/*body p {
-  width: 10vw;
-  text-align: center;
-  font-weight:bold;
-  background:#7245AC;
-  height:fit-content;
-  font-size: .8vw;
-  color:#FFFFFF
-  
- }
- */
 
  .footer img {
   width: 2vw;
@@ -88,7 +68,7 @@ body a {
 .callfooter {
   display: inline-block;
   position: relative;
-  left : 20%;
+  left : 15%;
   margin:.2vw
 }
 
@@ -141,6 +121,9 @@ body a {
 
 /*  index page css */
 
+.navindex a  {
+  color:white;
+}
 
 .navindex {
   display: flex;
@@ -198,6 +181,11 @@ body a {
 
 
 @media (max-width: 791px) {
+
+  .navindex a  {
+    color:#640074;
+  }
+
   .menu-button-container-index {
     display: flex;
   }
@@ -321,7 +309,6 @@ body a {
   justify-content: space-between;
   background-image: url(tumblr_o0qppfgN9i1txt22yo1_500.webp);
   background-size:cover;
-  color : #640074;
   font-weight:bolder;
   font-size:2vw;
   height: 3vw;
