@@ -4,10 +4,6 @@
    margin: 0;
  }
 
- :root {
-   --main-tabcontent-text-shadow : 2px 2px #640074;
-   --main-text-color : #FFFFFF;
-}
 .wrapper {
    display: flex;
    flex-direction: column;
@@ -256,8 +252,8 @@ footer {
    background-repeat: no-repeat;
    background-position:center;
    background-size:cover;
-   text-shadow: var(--main-tabcontent-text-shadow);
-   color : var(--main-text-color);
+   text-shadow: 2px 2px #640074;
+   color : #FFFFFF;
    
 }
 
