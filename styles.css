@@ -650,6 +650,11 @@ footer {
   flex:1;
 }
 
+.projectsbox img {
+  width:20vw;
+  height:20vw;
+}
+
 .projectboxtop {
   margin:2vw;
   display:flex;
