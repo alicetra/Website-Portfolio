@@ -1,3 +1,9 @@
+# T1A2 Portfolio Assigment
+ 
+[Published Portfolio Website](https://website-portfolio-flax-kappa.vercel.app/?fbclid=IwAR3e1ND-44C76Af5vvEAG6DWgpaSnvpRcDbe-I7eM8gIIWpFqUQWHal9TT4)
+
+[GitHub Repositority](https://github.com/alicetra/Website-Portfolio)
+
 # PURPOSE
 Create an enticing website: one that displays not only my web development skills, but also reflects my personality.The core objective is to establish an online portfolio that offers glimpses into my skills, interests, professional knowledge, and work experience.It will also feature a showcase of my best work to demonstrate my capabilities to potential employers.
 
@@ -67,5 +73,6 @@ HTML
 
 CSS
 
-GITHUB (Deployment) 
+Vercel
+
 
