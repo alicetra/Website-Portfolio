@@ -4,7 +4,7 @@ Create an enticing website: one that displays not only my web development skills
 # FUNCTIONALITY & FEATURES
 
 ### Hamburger Navigation bar
-The widely adopted hamburger navigation bar design element allows websites to maintain a neat, structured layout on smaller screens. As the window width decreases; the conventional navigation bar transforms into an icon shaped like a hamburger. Upon clicking this icon--it expands and displays the entire navigation menu.Therefore providing users with effortless access to all sections of the website.
+The widely adopted hamburger navigation bar design element allows websites to maintain a neat, structured layout on smaller screens. As the window width decreases; the conventional navigation bar transforms into an icon shaped like a hamburger. Upon clicking this icon,it expands and displays the entire navigation menu.Therefore providing users with effortless access to all sections of the website.
 By incorporating the hamburger navigation bar, I aimed to guarantee an intuitive user experience across all devices; additionally the position of this element is fixed ensuring it remains visible even if users need to scroll down.
 
 ### Responsive design 
