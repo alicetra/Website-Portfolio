@@ -433,10 +433,8 @@ footer {
 
 .contentboxblog {
   display:flex;
-  flex-direction:column;
   flex:1;
   flex-wrap: wrap;
-  gap:1vw;
 }
 
 .contentboxblog img {
@@ -456,17 +454,16 @@ footer {
   font-size:1.5vw
 }
 
-.topblog {
-  display:flex;
-  justify-content: space-evenly;
+.blogbox1 {
   flex:1;
 }
 
-.bottomblog {
-  display:flex;
-  justify-content: space-evenly;
+.blogbox2 {
   flex:1;
-  
+}
+
+.blogbox3 {
+  flex:1;
 }
 
 .blogandheading {
@@ -499,7 +496,12 @@ footer {
   }
 }
 
-@media screen and (max-width: 816px) {
+@media screen and (max-width: 729px) {
+
+  .contentboxblog {
+    flex-direction: column; 
+}
+
   .mainpageblog {
     margin-top: 7.5vw;
   }
@@ -532,16 +534,6 @@ footer {
     font-size: 3vw;
   }
 
-  .topblog {
-    display:flex;
-    flex-direction:column
-  }
-
-  .bottomblog {
-    display:flex;
-    flex-direction:column
-   }
-
    .contentboxblog p {
     font-size:3vw
   }
@@ -557,16 +549,6 @@ footer {
   .headingboxblog {
     font-size: 4vw;
   }
-
-  .topblog {
-    display:flex;
-    flex-direction:column
-  }
-
-  .bottomblog {
-    display:flex;
-    flex-direction:column
-   }
 
    .contentboxblog p {
     font-size:4.5vw
@@ -1039,9 +1021,6 @@ margin:0vw;
       font-size:4vw;
     }
 
-    .professionalbox {
-      flex-direction: column;
-    }
     .resumebox p {
       font-size:3.5vw;
     }
