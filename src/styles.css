@@ -248,7 +248,7 @@ footer {
   display:flex;
   flex:1;
   background:#28042e;
-  background-image: linear-gradient(to bottom, rgba(4, 1, 5, 0.589) 15%,rgba(255,153,153,0) 75%,rgba(11, 10, 27, 0.788) 85%),url(MOSHED-2023-9-14-11-32-20.gif);
+  background-image: linear-gradient(to bottom, rgba(4, 1, 5, 0.589) 15%,rgba(255,153,153,0) 75%,rgba(11, 10, 27, 0.788) 85%),url(images/MOSHED-2023-9-14-11-32-20.gif);
    background-repeat: no-repeat;
    background-position:center;
    background-size:cover;
@@ -299,7 +299,7 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-image: url(tumblr_o0qppfgN9i1txt22yo1_500.webp);
+  background-image: url(images/tumblr_o0qppfgN9i1txt22yo1_500.webp);
   background-size:cover;
   font-weight:bolder;
   font-size:2vw;
@@ -1037,3 +1037,53 @@ margin:0vw;
   }
 
 /* end about page css  */
+
+/* blog post css */
+.mainpageblogpost {
+  margin-top: 5vw;
+  flex: 1;
+  display: flex;
+  color:white;
+  font-weight: bold;
+  flex-direction: column;
+  background:pink;
+}
+
+.headingblogpost {
+  background:orange;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  text-shadow: 2px 2px white;
+  color: #640074;
+  font-weight: bold;
+  font-size: 1.5vw;
+}
+
+.blogpostarticle {
+  display:flex;
+  background:red;
+  flex:1;
+  flex-wrap: wrap;
+}
+
+.blogpostarticleparagraph {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex:1;
+  background:purple;
+}
+
+.articlepicture {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex:1;
+  background:green;
+}
+
+.articlepicture img {
+  height:30vw;
+  width:35vw;
+}
