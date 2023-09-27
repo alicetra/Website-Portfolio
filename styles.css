@@ -112,8 +112,9 @@ footer {
 
 /*  index page css */
 
-.navindex a  {
-  color:white;
+
+.navindex ul li a {
+  color: white;
 }
 
 .navindex {
@@ -173,14 +174,13 @@ footer {
 
 @media (max-width: 791px) {
 
-  .navindex a  {
+  .navindex ul li a {
     color:#640074;
   }
 
   .menu-button-container-index {
     display: flex;
   }
-
   .menuindex {
     position: absolute;
     top: 0;
@@ -284,6 +284,7 @@ footer {
 
 }
 
+
 /* end of index page code  */
 
 
@@ -351,6 +352,9 @@ footer {
   margin-top: .8vw;
 }
 
+.navindex a  {
+  color:#640074;
+}
 
 @media (max-width: 1027px) {
   .menu-button-container {
@@ -496,7 +500,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 729px) {
+@media screen and (max-width: 780px) {
 
   .contentboxblog {
     flex-direction: column; 
