@@ -1089,8 +1089,26 @@ margin:0vw;
   margin:2vw;
 }
 
+.backtoblog {
+  list-style-type: none;
+}
+
+.backtoblog a {
+  display:flex;
+  font-size:1.5vw;
+  justify-content: end;
+  margin-right:2vw;
+}
+
+
 
 @media (max-width: 1024px) {
+
+  .backtoblog a {
+    justify-content: center;
+    font-size:4vw;
+
+  }
 
   .headingblogpost {
     margin-top: 6vw;
@@ -1107,6 +1125,7 @@ margin:0vw;
     width:80vw;
     margin: 0vw;
   }
+
 }
 
 @media (max-width: 518px) {
@@ -1120,6 +1139,7 @@ margin:0vw;
     font-size:3.5vw;
     
   }
+
 }
 
 @media (max-width: 390px) {
@@ -1134,3 +1154,4 @@ margin:0vw;
     
   }
 }
+
