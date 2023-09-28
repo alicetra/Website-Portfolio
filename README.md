@@ -4,7 +4,7 @@
 
 [GitHub Repositority](https://github.com/alicetra/Website-Portfolio)
 
-[Presentation video](https://www.youtube.com/watch?v=LqbPjXm5obk)
+[Presentation Video](https://www.youtube.com/watch?v=LqbPjXm5obk)
 
 
 
