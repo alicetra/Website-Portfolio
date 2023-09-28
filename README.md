@@ -4,6 +4,10 @@
 
 [GitHub Repositority](https://github.com/alicetra/Website-Portfolio)
 
+[Presentation video](https://www.youtube.com/watch?v=LqbPjXm5obk)
+
+
+
 # PURPOSE
 Create an enticing website: one that displays not only my web development skills, but also reflects my personality.The core objective is to establish an online portfolio that offers glimpses into my skills, interests, professional knowledge, and work experience.It will also feature a showcase of my best work to demonstrate my capabilities to potential employers.
 
