@@ -62,7 +62,7 @@ Internal navigation of the website
 
 ![website](./docs/about.png)
 
-![website](./projectstablet.png)
+![website](./docs/projectstablet.png)
 
 ![website](./docs/project.png)
 
