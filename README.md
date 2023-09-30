@@ -62,6 +62,8 @@ Internal navigation of the website
 
 ![website](./docs/about.png)
 
+![website](projectstablet-1.png)
+
 ![website](./docs/project.png)
 
 ![website](./docs/blog.png)
